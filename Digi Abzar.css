@@ -1,0 +1,396 @@
+body{
+    margin: 0%;
+    font-family: B mitra;
+    background-color: orange;
+}
+
+
+#searchbox{
+    width: 75%;
+   margin-top: 10px;
+   margin-left: 200px;
+   
+    
+}
+#searchbox input,button{
+    width: 72.75%;
+    border: 2px solid black;
+    
+    font-size: 18px;
+    font-family: B mitra;
+    padding: 12px;
+    background: transparent;
+    color: black;
+    
+}
+#searchbox button{
+    width: 25%;
+    background-color: #eee;
+    color: black;
+    float: right;
+    border-left: 0px;
+    
+    
+    
+
+}
+#searchbox input{
+    margin-left: 140px;
+  
+}
+#searchbox button:hover{
+    opacity: .8;
+}
+#searchbox input:hover{
+    opacity: .8;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+}
+header ul{
+    display: flex;
+justify-content: flex-end;
+max-width: 1500px;
+margin: 0 auto;
+padding: 0;
+margin-top: 5px;
+}
+header ul li{
+list-style: none;
+position: relative;
+padding: 10px 0px;
+transition: 0.5s;
+box-sizing: border-box;
+border-right: 1px solid rgba(255, 255, 255, .2);
+}
+header ul li:last-child{
+    border-right: none;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff;
+}
+header ul li:hover{
+    background: #2196f3;
+}
+header ul li ul{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #000;
+    display: block;
+    width: 200px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+header ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+header ul li ul li{
+    border-right: none;
+    border-bottom:1px solid rgba(255, 255, 255, .2);
+}
+@media (max-width:768px)
+{
+    header ul{
+        display: block;
+    }
+    header ul li{
+        display: block;
+    }
+    header ul li ul{
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+.colome1{
+    float: left;
+    height: 800px;
+    width: 500px;
+    background-color:orange;
+    border: 1px;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome2{
+    float: right;
+    background-color: orange;
+    height: 800px;
+    width: 500px;
+    border: 1px;
+    text-align: center;
+   margin-top: 5px;
+   
+  
+   padding-right: 12px;
+   padding-left: 1px;
+}
+.colome3{
+    float: right;
+    background-color: orange;
+    height: 800px;
+    width: 500px;
+    border: 1px;
+    font-size: 66px;
+    color: red;
+   margin-top: 5px;
+   text-align: center;
+   padding-top: 0%;
+   
+}
+.Footer{
+background-color:rgb(124, 121, 121);
+height: 150px;
+width: auto;
+margin-top: 820px;
+
+text-align: right;
+
+
+ 
+}
+.colome1 img{
+    padding-top: 300px;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    
+   
+    
+}
+.colome2 img{
+    padding-top: 300px;
+    height: 350px;
+    width: 350px;
+    margin-left: 60px;
+}
+.colome3 img{
+    padding-top: 45px;
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+    margin-top:  30px;
+}
+
+.colome4{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    border: 1px;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome5{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome6{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome7{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome8{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome9{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome10{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome11{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome12{
+    float:right;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome13{
+    float:right;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome14{
+    float:right;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome15{
+    float:right;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome16{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome17{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome18{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome19{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome20{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome21{
+    float: left;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome22{
+    float: left;
+    height: 200px;
+    width: 490px;
+    background-color:wheatSS;
+   
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome23{
+    float:right;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+.colome24{
+    float:right;
+    height: 200px;
+    width: 510px;
+    background-color:wheatSS;
+    
+   margin-top: 3px;
+   text-align: center;
+   font-size: 25px;
+}
+
+
+
